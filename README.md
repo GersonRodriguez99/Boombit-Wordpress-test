@@ -81,7 +81,7 @@ Boombit-Wordpress-test utiliza los siguientes elementos para su correcto functio
 ## Installation
 
 
-Install el zip comprimido de del tema.
+Installar el zip comprimido de del tema.
 o 
 en el directorio de WordPress wp-content/themes 
 ```sh
