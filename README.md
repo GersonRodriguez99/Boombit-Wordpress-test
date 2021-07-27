@@ -88,6 +88,7 @@ en el directorio de WordPress wp-content/themes
 git clone https://github.com/GersonRodriguez99/Boombit-Wordpress-test.git  Boombit-Wordpress-test
 ```
 Activar tema en dashboard/appearence/themes 
+Activar el pluging correspondiente para servicios SMTP con wp_mail
 
 ## Plugins
 
