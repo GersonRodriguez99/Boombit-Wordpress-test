@@ -1,0 +1,121 @@
+/*
+Theme Name: Boombit Wordpress test
+Author: Gerson Rodriguez
+Author URI: http://gersonrodriguez.net/#/
+Description: This is a test Custom Template for Market Promotions
+Version: 0.0.1
+*/
+
+/*--------------------------------------------------------------
+General
+--------------------------------------------------------------*/
+
+body{ 
+    background-color: #1f1f1f;
+    color: white;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.btn-dark{
+    background-color: black !important;
+}
+.content-area{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/*--------------------------------------------------------------
+Navbar 
+--------------------------------------------------------------*/
+.navbar{
+ 
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    text-transform: uppercase;
+
+}
+.navbar li{
+    min-width: -webkit-fill-available;
+}
+
+
+
+/*--------------------------------------------------------------
+Promotions banner
+--------------------------------------------------------------*/
+.promotions-container{
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------------------------------
+Form
+--------------------------------------------------------------*/
+
+.form-container{
+    background-color: white;
+    padding: 5%;
+}
+form{
+    color: black;
+}
+.confirmation{
+    color: black;
+}
+
+/*--------------------------------------------------------------
+top-banner
+--------------------------------------------------------------*/
+.top-banner{
+    background-color: #2e2e2e;
+}
+
+
+/*--------------------------------------------------------------
+footer Newletter 
+--------------------------------------------------------------*/
+
+.footer-newsletter {
+    padding: 80px 0;
+    }
+    
+    .footer-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .footer-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+    .footer-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; }
+    .footer-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; }
+    .footer-newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+    }
+    .site-footer .confirmation h2{
+        color: white !important;
+    }
